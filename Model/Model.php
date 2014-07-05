@@ -69,7 +69,7 @@ class Model{
                  $obj=$result->fetch();
                     if($obj['count']>0){
                      return false;
-                 } echo 'wszystko smiga'; return true;
+                 } echo 'wszystko dziala'; return true;
         }echo 'nie sprawdzilo'; return false;
     }
 
